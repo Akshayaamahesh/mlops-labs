@@ -1,5 +1,5 @@
-   lab_01/
-   __pycache__/
-   *.pyc
-   .pytest_cache/
-   pytest-report.xml
+lab_01/
+__pycache__/
+*.pyc
+.pytest_cache/
+pytest-report.xml
