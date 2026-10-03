@@ -17,6 +17,7 @@ class TestTextUtils(unittest.TestCase):
     def test_is_palindrome(self):
         self.assertTrue(text_utils.is_palindrome("racecar"))
         self.assertFalse(text_utils.is_palindrome("hello"))
+        self.assertTrue(text_utils.is_palindrome("A man, a plan, a canal: Panama"))
 
     def test_text_summary(self):
         result = text_utils.text_summary("noon")
@@ -27,6 +28,7 @@ class TestTextUtils(unittest.TestCase):
     def test_invalid_input(self):
         with self.assertRaises(ValueError):
             text_utils.reverse_text(None)
+
 
 
 if __name__ == "__main__":
