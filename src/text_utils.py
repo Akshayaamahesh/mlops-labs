@@ -17,7 +17,7 @@ def is_palindrome(text):
     ignoring case, spaces, and punctuation."""
     if not isinstance(text, str):
         raise ValueError("Input must be a string.")
-    cleaned = "".join(ch.lower() for ch in text if ch.isalnum())
+    cleaned = "".join(ch for ch in text if ch.isalnum())
     return cleaned == cleaned[::-1]
 
 
