@@ -44,7 +44,6 @@ git clone https://github.com/Akshayaamahesh/mlops-labs.git
 cd mlops-labs
 python3 -m venv lab_01
 source lab_01/bin/activate      # Mac / Linux
-# lab_01\Scripts\activate       # Windows
 pip install -r requirements.txt
 ```
 
